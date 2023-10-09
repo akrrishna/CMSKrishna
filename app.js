@@ -57,7 +57,7 @@ const blog = await Blog.findById(id)
 
     
     res.json({
-        message : "Blog found Successfully",
+        message : "Blog found Success",
         data : blog
         
     })
